@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="mainPane" prefHeight="252.00009999999747" prefWidth="507.0" style=" " styleClass="anchorPane" xmlns:fx="http://javafx.com/fxml" fx:controller="fdbtoxml.controllers.ControllerConnect">
+  <!-- TODO Add Nodes -->
+  <children>
+    <ImageView id="adi-com-soft" pickOnBounds="true" style="\@images/adi-com-soft.JPG" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0">
+      <image>
+        <Image url="@../images/adi-com-soft.jpg" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <CheckBox fx:id="checkDefaults" allowIndeterminate="false" layoutX="41.0" layoutY="154.0" mnemonicParsing="false" selected="true" text="Use default username and password">
+      <textFill>
+        <Color blue="0.625" green="0.625" red="0.625" fx:id="x1" />
+      </textFill>
+    </CheckBox>
+    <TextField fx:id="fieldDatabase" editable="false" layoutX="41.0" layoutY="52.0" prefHeight="27.0" prefWidth="319.0" promptText="" text="" />
+    <Button fx:id="buttonConnect" layoutX="41.0" layoutY="204.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="158.0" text="Connect to database" />
+    <TextField fx:id="fieldUsername" editable="false" layoutX="41.0" layoutY="109.0" prefHeight="27.0" prefWidth="197.0" promptText="" text="SYSDBA" />
+    <Label layoutX="41.0" layoutY="29.0" text="Select database file path" textFill="$x1" />
+    <Button fx:id="buttonDatabase" layoutX="371.0" layoutY="52.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="100.0" text="Choose" />
+    <Label layoutX="41.0" layoutY="90.0" text="Enter username for database">
+      <textFill>
+        <Color blue="0.624" green="0.624" red="0.624" fx:id="x2" />
+      </textFill>
+    </Label>
+    <Label layoutX="273.0" layoutY="90.0" text="Enter password for database" textFill="$x2" />
+    <PasswordField fx:id="fieldPassword" editable="false" layoutX="273.0" layoutY="109.0" prefHeight="27.000099999997474" prefWidth="197.0" text="masterkey" />
+    <Label fx:id="alertEmpty" alignment="BOTTOM_LEFT" contentDisplay="RIGHT" disable="false" focusTraversable="false" layoutX="41.0" layoutY="182.0" prefWidth="158.0" text="One or more fields are empty" textFill="#ff3333" visible="false" />
+  </children>
+  <stylesheets>
+    <URL value="@../css/Connect.css" />
+  </stylesheets>
+</AnchorPane>

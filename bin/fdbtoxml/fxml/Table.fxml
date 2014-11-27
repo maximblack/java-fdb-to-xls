@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="mainPane" prefHeight="600.0" prefWidth="800.0" style=" " styleClass="anchorPane" xmlns:fx="http://javafx.com/fxml" fx:controller="fdbtoxml.controllers.ControllerTable">
+  <!-- TODO Add Nodes -->
+  <children>
+    <TableView fx:id="table" editable="false" prefHeight="376.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="24.0" />
+    <MenuBar prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Export" fx:id="menuExport" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Raports" fx:id="menuTables" />
+      </menus>
+    </MenuBar>
+  </children>
+  <stylesheets>
+    <URL value="@../css/Table.css" />
+  </stylesheets>
+</AnchorPane>
