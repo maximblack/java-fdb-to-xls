@@ -15,7 +15,7 @@ java-fdb-to-xls
 ![](/application-connect.png?raw=true)
 
 ### Displaying tables
-![](//application-interface.png?raw=true)
+![](/application-interface.png?raw=true)
 
 
 
