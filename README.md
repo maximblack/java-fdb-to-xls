@@ -1,7 +1,7 @@
 java-fdb-to-xls
 ===============
 
-.fdb to .xls converter written in Java
+.fdb to .xls converter written in Java using JavaFX
 
 ## [Watch how it works on Youtube](http://youtu.be/Dnpoqz9rslY)
 
