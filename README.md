@@ -6,7 +6,7 @@ java-fdb-to-xls
 ## [Watch how it works on Youtube](http://youtu.be/Dnpoqz9rslY)
 
 ## Installation steps
-1. Install firebird server from [Firebird official site](http://www.firebirdsql.org/en/downloads/);
+1. Install firebird server from [Firebird official site](http://www.firebirdsql.org/en/downloads/) and start it;
 2. Edit build path including .jar's from /lib directory;
 3. Run application
 4. _(Optional)_ If your JDK < 7u6 install JavaFX following the [steps](https://docs.oracle.com/javafx/2/installation/jfxpub-installation.htm#CHDIAEJA)
