@@ -12,10 +12,10 @@ java-fdb-to-xls
 4. _(Optional)_ If your JDK < 7u6 install JavaFX following the [steps](https://docs.oracle.com/javafx/2/installation/jfxpub-installation.htm#CHDIAEJA)
 
 ### Start firebird SQL Server and choose .dbf file
-![]("//application-connect.png?raw=true")
+![](/application-connect.png?raw=true)
 
 ### Displaying tables
-![](//application-interface.png)
+![](//application-interface.png?raw=true)
 
 
 
